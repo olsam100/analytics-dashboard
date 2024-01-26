@@ -1,0 +1,36 @@
+.reportItems {
+  display: flex;
+  /* width: 452px; */
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.7rem;
+  width: 100%;
+}
+
+.reportProgress {
+  width: 100%;
+  /* width: 452px; */
+  height: 12px;
+  flex-shrink: 0;
+  position: relative;
+  border-radius: 40px;
+  background: #f5f5f5;
+}
+
+.reportName {
+  color: #22242c;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 144.444% */
+}
+
+.reportAmount {
+  color: #525252;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
